@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('C:\Users\Ascott\OneDrive\Pictures/.jpg') no-repeat center center/cover;
+        }
+        .container {
+            width: 320px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+        h2 {
+            font-size: 24px;
+            color: white;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .input-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .input-group input {
+            width: 48%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .checkbox {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: white;
+        }
+        .checkbox input {
+            margin-right: 5px;
+        }
+        .checkbox a {
+            color: red;
+            text-decoration: none;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-text {
+            margin-top: 10px;
+            color: white;
+        }
+        .login-text a {
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+        </div>
+        <input type="email" class="input-field" placeholder="Email">
+        <input type="password" class="input-field" placeholder="Password">
+        <input type="password" class="input-field" placeholder="Confirm Password">
+        <div class="checkbox">
+            <input type="checkbox">
+            <label>I Agree with <a href="#">Privacy</a> and <a href="#">Policy</a></label>
+        </div>
+        <button class="btn">Sign up</button>
+        <p class="login-text">Already have an account? <a href="#">Login</a></p>
+    </div>
+</body>
+</html>
